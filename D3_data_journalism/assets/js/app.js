@@ -66,7 +66,7 @@ function renderXAxes(newXScale, xAxis) {
 function renderYAxes(newYScale, yAxis) {
     var leftAxis = d3.axisLeft(newYScale);
   
-    xAxis.transition()
+    yAxis.transition()
       .duration(1000)
       .call(leftAxis);
   
@@ -256,7 +256,7 @@ d3.csv("assets/data/data.csv").then(function(censusData, err) {
     var circlesGroup = updateToolTip(chosenXAxis, chosenYAxis, circlesGroup);
 
     // x axis labels event listener
-    labelsGroup.selectAll("text")
+    labelsXGroup.selectAll("text")
         .on("click", function() {
             // get value of selection
             var value = d3.select(this).attr("value");

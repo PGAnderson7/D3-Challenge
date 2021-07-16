@@ -80,10 +80,4 @@ Your final product will be assessed on the following metrics:
 
 **Good luck!**
 
-## Rubric
-
-[Unit 16 Rubric - D3 Homework - Data Journalism and D3](https://docs.google.com/document/d/10v1svLr0DM7jvJlBqUKaCbGWcv-xT5rK9AMafU6su14/edit?usp=sharing)
-
-- - -
-
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
